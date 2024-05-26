@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.btnDarkmode {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.DarkMode {
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+/* Container */
+
+.Container {
+    max-width: 1200px;
+    height: 450px;
+    display: flex;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Container .Items {
+    width: 300px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #7a7676;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.Container .Items img {
+    width: 100%;
+}
+
+.Container .Items .text {
+    padding: 5px;
+}
+
+.Container .Items .btnContainer {
+    padding: 5px;
+}
+
+.Container .Items .btnContainer button {
+    width: 100px;
+    padding: 3px;
+}
